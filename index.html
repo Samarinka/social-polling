@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Соціальне опитування</title>
+    <style type="text/css">
+        .question{
+            width: 60%;
+            padding: 10px;
+            margin: 10px;
+            background-color: #eee;
+            border-radius: 8px;
+        }
+        .sbm-button{
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 2px 50px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        body{
+            font-family: "Open Sans", Tahoma, sans-serif;
+            color: #333;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Соціологічне дослідження: освіта в житті молоді</h1>
+        <form>
+            <ol>
+                <div class="question">
+                    <li>
+                        <label for="gender">Ваша стать:</label><br/>
+                        <input id="gender" name="gender" type="radio">Жіноча<br/>
+                        <input name="gender" type="radio">Чоловіча
+                    </li>
+                </div>
+                <div class="question">
+                    <li>
+                        <label for="education">Ваше освіта</label><br/>
+                        <input id="education" name="education" type="radio">Технічна<br/>
+                        <input name="education" type="radio">Не технічна
+                    </li>
+                </div>
+            </ol>
+            
+            <input class="sbm-button" type="submit" value="Відправити" />
+        </form>
+        
+            
+    </body>
+</html>
